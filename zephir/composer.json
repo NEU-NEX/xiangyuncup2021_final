@@ -1,0 +1,82 @@
+{
+    "name": "phalcon/zephir",
+    "description": "Zephir is a compiled high level language aimed to the creation of C-extensions for PHP",
+    "keywords": [
+        "extension",
+        "zephir",
+        "phalcon",
+        "internals"
+    ],
+    "homepage": "https://zephir-lang.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phalcon Team",
+            "email": "team@zephir-lang.com",
+            "homepage": "https://zephir-lang.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/zephir-lang/zephir/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.1",
+        "ext-ctype": "*",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pcre": "*",
+        "ext-xml": "*",
+        "ext-zlib": "*",
+        "league/flysystem": "^2.0",
+        "ocramius/proxy-manager": "^2.10",
+        "symfony/console": "^5.2",
+        "symfony/framework-bundle": "^5.2",
+        "symfony/monolog-bridge": "^5.2",
+        "symfony/monolog-bundle": "^3.7",
+        "symfony/yaml": "^5.2"
+    },
+    "require-dev": {
+        "ext-gmp": "*",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-zip": "*",
+        "phpunit/phpunit": "^9.5",
+        "psr/log": "1.1.*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {},
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Zephir\\": "Library"
+        },
+        "files": [
+            "Library/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zephir\\Test\\": "tests/Zephir/",
+            "Extension\\": "tests/Extension/"
+        },
+        "classmap": [
+            "tests/fixtures/mocks/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": [
+        "zephir"
+    ],
+    "support": {
+        "issues": "https://github.com/zephir-lang/zephir/issues?state=open",
+        "source": "https://github.com/zephir-lang/zephir",
+        "irc": "irc://irc.freenode.net/zephir",
+        "docs": "https://docs.zephir-lang.com"
+    }
+}

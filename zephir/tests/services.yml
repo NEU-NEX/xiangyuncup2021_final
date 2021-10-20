@@ -1,0 +1,8 @@
+services:
+
+  Zephir\CompilerFile:
+    public: true
+    arguments:
+      $config: '@Zephir\Config'
+      $aliasManager: '@Zephir\AliasManager'
+      $filesystem: '@Zephir\FileSystem\FileSystemInterface'

@@ -1,0 +1,52 @@
+17-Oct-2021 11:22:56.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+17-Oct-2021 11:22:56.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+17-Oct-2021 11:22:56.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               5.10.0-kali9-amd64
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         /home/maxzed/atlassian/jira/jre
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_202-b08
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/maxzed/atlassian/jira/conf/logging.properties
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms384m
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:InitialCodeCacheSize=32m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=512m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Datlassian.standalone=JIRA
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmail.mime.decodeparameters=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.dom4j.factory=com.atlassian.core.xml.InterningDocumentFactory
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-OmitStackTraceInFastThrow
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.locale.providers=COMPAT
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Datlassian.plugins.startup.options=
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:/home/maxzed/atlassian/jira/logs/atlassian-jira-gc-%t.log
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseGCLogFileRotation
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:NumberOfGCLogFiles=5
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:GCLogFileSize=20M
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDateStamps
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCCause
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExplicitGCInvokesConcurrent
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/maxzed/atlassian/jira/temp
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+17-Oct-2021 11:22:56.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+17-Oct-2021 11:22:56.121 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/tmp/ctf_web_04c9ac3f41c38aba0cd892a08638db46/atlassian-jira-software-8.9.0-x64.bin.1730.dir/user::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Oct-2021 11:22:56.193 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+17-Oct-2021 11:22:56.202 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 360 ms
+17-Oct-2021 11:22:56.210 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Oct-2021 11:22:56.210 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+17-Oct-2021 11:22:59.048 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+17-Oct-2021 11:22:59.052 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2021 11:22:59.062 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2859 ms
+17-Oct-2021 11:23:11.161 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

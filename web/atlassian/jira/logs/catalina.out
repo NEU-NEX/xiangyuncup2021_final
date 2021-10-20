@@ -1,0 +1,275 @@
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+17-Oct-2021 11:22:56.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本:     Apache Tomcat/8.5.50
+17-Oct-2021 11:22:56.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:            Dec 7 2019 19:19:46 UTC
+17-Oct-2021 11:22:56.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(：8.5.50.0
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:               5.10.0-kali9-amd64
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:                  amd64
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:         /home/maxzed/atlassian/jira/jre
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 版本:              1.8.0_202-b08
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:            Oracle Corporation
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/maxzed/atlassian/jira/conf/logging.properties
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms384m
+17-Oct-2021 11:22:56.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:InitialCodeCacheSize=32m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=512m
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Datlassian.standalone=JIRA
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmail.mime.decodeparameters=true
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.dom4j.factory=com.atlassian.core.xml.InterningDocumentFactory
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-OmitStackTraceInFastThrow
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.locale.providers=COMPAT
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Datlassian.plugins.startup.options=
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Oct-2021 11:22:56.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:/home/maxzed/atlassian/jira/logs/atlassian-jira-gc-%t.log
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseGCLogFileRotation
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:NumberOfGCLogFiles=5
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:GCLogFileSize=20M
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDateStamps
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCCause
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExplicitGCInvokesConcurrent
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/maxzed/atlassian/jira
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/maxzed/atlassian/jira/temp
+17-Oct-2021 11:22:56.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+17-Oct-2021 11:22:56.121 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dswing.aatext=true
+17-Oct-2021 11:22:56.121 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/tmp/ctf_web_04c9ac3f41c38aba0cd892a08638db46/atlassian-jira-software-8.9.0-x64.bin.1730.dir/user::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Oct-2021 11:22:56.193 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+17-Oct-2021 11:22:56.202 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 360 ms
+17-Oct-2021 11:22:56.210 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Oct-2021 11:22:56.210 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+2021-10-17 11:22:58,798+0800 localhost-startStop-1 INFO      [c.a.jira.startup.JiraHomeStartupCheck] The jira.home directory '/home/maxzed/atlassian/application-data/jira' is validated and locked for exclusive use by this instance.
+2021-10-17 11:22:58,849+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] 
+    
+    ****************
+    Jira starting...
+    ****************
+    
+2021-10-17 11:22:58,958+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] 
+    
+    ___ Environment _____________________________
+    
+         JIRA Build                                    : 8.9.0#809000-sha1:4ceb90abd8e813f4565a1705e597aeab0a82fc50
+         Build Date                                    : Mon May 18 00:00:00 CST 2020
+         JIRA Installation Type                        : Standalone
+         Application Server                            : Apache Tomcat/8.5.50 - Servlet API 3.1
+         Java Version                                  : 1.8.0_202 - AdoptOpenJdk
+         Current Working Directory                     : /home/maxzed/atlassian/jira/bin
+         Maximum Allowable Memory                      : 1820MB
+         Total Memory                                  : 907MB
+         Free Memory                                   : 845MB
+         Used Memory                                   : 62MB
+         Memory Pool: Code Cache                       : Code Cache: init = 33554432(32768K) used = 9495296(9272K) committed = 33554432(32768K) max = 536870912(524288K)
+         Memory Pool: Metaspace                        : Metaspace: init = 0(0K) used = 21076136(20582K) committed = 21757952(21248K) max = -1(-1K)
+         Memory Pool: Compressed Class Space           : Compressed Class Space: init = 0(0K) used = 2360104(2304K) committed = 2621440(2560K) max = 1073741824(1048576K)
+         Memory Pool: PS Eden Space                    : PS Eden Space: init = 100663296(98304K) used = 31774464(31029K) committed = 662175744(646656K) max = 668467200(652800K)
+         Memory Pool: PS Survivor Space                : PS Survivor Space: init = 16777216(16384K) used = 20434432(19955K) committed = 20447232(19968K) max = 20447232(19968K)
+         Memory Pool: PS Old Gen                       : PS Old Gen: init = 268435456(262144K) used = 12444736(12153K) committed = 268435456(262144K) max = 1431830528(1398272K)
+         JVM Input Arguments                           : -Djava.util.logging.config.file=/home/maxzed/atlassian/jira/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms384m -Xmx2048m -XX:InitialCodeCacheSize=32m -XX:ReservedCodeCacheSize=512m -Djava.awt.headless=true -Datlassian.standalone=JIRA -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true -Dmail.mime.decodeparameters=true -Dorg.dom4j.factory=com.atlassian.core.xml.InterningDocumentFactory -XX:-OmitStackTraceInFastThrow -Djava.locale.providers=COMPAT -Datlassian.plugins.startup.options= -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xloggc:/home/maxzed/atlassian/jira/logs/atlassian-jira-gc-%t.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=20M -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+PrintGCCause -XX:+ExplicitGCInvokesConcurrent -Dignore.endorsed.dirs= -Dcatalina.base=/home/maxzed/atlassian/jira -Dcatalina.home=/home/maxzed/atlassian/jira -Djava.io.tmpdir=/home/maxzed/atlassian/jira/temp -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+         Java Compatibility Information                : JIRA version = 8.9.0, Java Version = 1.8.0_202
+    
+    ___ Java System Properties _________________
+    
+         atlassian.plugins.startup.options             : 
+         atlassian.standalone                          : JIRA
+         awt.toolkit                                   : sun.awt.X11.XToolkit
+         awt.useSystemAAFontSettings                   : on
+         catalina.base                                 : /home/maxzed/atlassian/jira
+         catalina.home                                 : /home/maxzed/atlassian/jira
+         catalina.useNaming                            : true
+         common.loader                                 : "${catalina.base}/lib",
+                                                         "${catalina.base}/lib/*.jar",
+                                                         "${catalina.home}/lib",
+                                                         "${catalina.home}/lib/*.jar"
+         file.encoding                                 : UTF-8
+         file.encoding.pkg                             : sun.io
+         ignore.endorsed.dirs                          : 
+         java.awt.graphicsenv                          : sun.awt.X11GraphicsEnvironment
+         java.awt.headless                             : true
+         java.awt.printerjob                           : sun.print.PSPrinterJob
+         java.class.version                            : 52.0
+         java.home                                     : /home/maxzed/atlassian/jira/jre
+         java.io.tmpdir                                : /home/maxzed/atlassian/jira/temp
+         java.locale.providers                         : COMPAT
+         java.naming.factory.initial                   : org.apache.naming.java.javaURLContextFactory
+         java.naming.factory.url.pkgs                  : org.apache.naming
+         java.protocol.handler.pkgs                    : org.apache.catalina.webresources
+         java.runtime.name                             : OpenJDK Runtime Environment
+         java.runtime.version                          : 1.8.0_202-b08
+         java.specification.name                       : Java Platform API Specification
+         java.specification.vendor                     : Oracle Corporation
+         java.specification.version                    : 1.8
+         java.util.concurrent.ForkJoinPool.common.threadFactory : org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory
+         java.util.logging.config.file                 : /home/maxzed/atlassian/jira/conf/logging.properties
+         java.util.logging.manager                     : org.apache.juli.ClassLoaderLogManager
+         java.vendor                                   : AdoptOpenJdk
+         java.vendor.url                               : https://adoptopenjdk.net/
+         java.vendor.url.bug                           : https://github.com/AdoptOpenJDK/openjdk-build/issues
+         java.version                                  : 1.8.0_202
+         java.vm.info                                  : mixed mode
+         java.vm.name                                  : OpenJDK 64-Bit Server VM
+         java.vm.specification.name                    : Java Virtual Machine Specification
+         java.vm.specification.vendor                  : Oracle Corporation
+         java.vm.specification.version                 : 1.8
+         java.vm.vendor                                : Oracle Corporation
+         java.vm.version                               : 25.202-b08
+         jdk.tls.ephemeralDHKeySize                    : 2048
+         mail.mime.decodeparameters                    : true
+         org.apache.catalina.security.SecurityListener.UMASK : 0027
+         org.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER : true
+         org.dom4j.factory                             : com.atlassian.core.xml.InterningDocumentFactory
+         os.arch                                       : amd64
+         os.name                                       : Linux
+         os.version                                    : 5.10.0-kali9-amd64
+         package.access                                : sun.,
+                                                         org.apache.catalina.,
+                                                         org.apache.coyote.,
+                                                         org.apache.jasper.,
+                                                         org.apache.tomcat.
+         package.definition                            : sun.,
+                                                         java.,
+                                                         org.apache.catalina.,
+                                                         org.apache.coyote.,
+                                                         org.apache.jasper.,
+                                                         org.apache.naming.,
+                                                         org.apache.tomcat.
+         server.loader                                 : 
+         shared.loader                                 : 
+         sun.arch.data.model                           : 64
+         sun.boot.library.path                         : /home/maxzed/atlassian/jira/jre/lib/amd64
+         sun.cpu.endian                                : little
+         sun.cpu.isalist                               : 
+         sun.io.unicode.encoding                       : UnicodeLittle
+         sun.java.command                              : org.apache.catalina.startup.Bootstrap start
+         sun.java.launcher                             : SUN_STANDARD
+         sun.jnu.encoding                              : UTF-8
+         sun.management.compiler                       : HotSpot 64-Bit Tiered Compilers
+         sun.os.patch.level                            : unknown
+         swing.aatext                                  : true
+         tomcat.util.buf.StringCache.byte.enabled      : true
+         tomcat.util.scan.StandardJarScanFilter.jarsToScan : log4j-taglib*.jar,
+                                                         log4j-web*.jar,
+                                                         log4javascript*.jar,
+                                                         slf4j-taglib*.jar
+         tomcat.util.scan.StandardJarScanFilter.jarsToSkip : annotations-api.jar,
+                                                         ant-junit*.jar,
+                                                         ant-launcher.jar,
+                                                         ant.jar,
+                                                         asm-*.jar,
+                                                         aspectj*.jar,
+                                                         bootstrap.jar,
+                                                         catalina-ant.jar,
+                                                         catalina-ha.jar,
+                                                         catalina-jmx-remote.jar,
+                                                         catalina-storeconfig.jar,
+                                                         catalina-tribes.jar,
+                                                         catalina-ws.jar,
+                                                         catalina.jar,
+                                                         cglib-*.jar,
+                                                         cobertura-*.jar,
+                                                         commons-beanutils*.jar,
+                                                         commons-codec*.jar,
+                                                         commons-collections*.jar,
+                                                         commons-daemon.jar,
+                                                         commons-dbcp*.jar,
+                                                         commons-digester*.jar,
+                                                         commons-fileupload*.jar,
+                                                         commons-httpclient*.jar,
+                                                         commons-io*.jar,
+                                                         commons-lang*.jar,
+                                                         commons-logging*.jar,
+                                                         commons-math*.jar,
+                                                         commons-pool*.jar,
+                                                         dom4j-*.jar,
+                                                         easymock-*.jar,
+                                                         ecj-*.jar,
+                                                         el-api.jar,
+                                                         geronimo-spec-jaxrpc*.jar,
+                                                         h2*.jar,
+                                                         hamcrest-*.jar,
+                                                         hibernate*.jar,
+                                                         httpclient*.jar,
+                                                         icu4j-*.jar,
+                                                         jasper-el.jar,
+                                                         jasper.jar,
+                                                         jaspic-api.jar,
+                                                         jaxb-*.jar,
+                                                         jaxen-*.jar,
+                                                         jdom-*.jar,
+                                                         jetty-*.jar,
+                                                         jmx-tools.jar,
+                                                         jmx.jar,
+                                                         jsp-api.jar,
+                                                         jstl.jar,
+                                                         jta*.jar,
+                                                         junit-*.jar,
+                                                         junit.jar,
+                                                         log4j*.jar,
+                                                         mail*.jar,
+                                                         objenesis-*.jar,
+                                                         oraclepki.jar,
+                                                         oro-*.jar,
+                                                         servlet-api-*.jar,
+                                                         servlet-api.jar,
+                                                         slf4j*.jar,
+                                                         taglibs-standard-spec-*.jar,
+                                                         tagsoup-*.jar,
+                                                         tomcat-api.jar,
+                                                         tomcat-coyote.jar,
+                                                         tomcat-dbcp.jar,
+                                                         tomcat-i18n-*.jar,
+                                                         tomcat-jdbc.jar,
+                                                         tomcat-jni.jar,
+                                                         tomcat-juli-adapters.jar,
+                                                         tomcat-juli.jar,
+                                                         tomcat-util-scan.jar,
+                                                         tomcat-util.jar,
+                                                         tomcat-websocket.jar,
+                                                         tools.jar,
+                                                         websocket-api.jar,
+                                                         wsdl4j*.jar,
+                                                         xercesImpl.jar,
+                                                         xml-apis.jar,
+                                                         xmlParserAPIs-*.jar,
+                                                         xmlParserAPIs.jar,
+                                                         xom-*.jar
+         user.country                                  : CN
+         user.dir                                      : /home/maxzed/atlassian/jira/bin
+         user.home                                     : /home/maxzed
+         user.language                                 : zh
+         user.name                                     : maxzed
+         user.timezone                                 : Asia/Shanghai
+    
+17-Oct-2021 11:22:59.048 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+17-Oct-2021 11:22:59.052 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Oct-2021 11:22:59.062 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2859 ms
+2021-10-17 11:22:59,112+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from /home/maxzed/atlassian/application-data/jira/dbconfig.xml
+2021-10-17 11:22:59,151+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from /home/maxzed/atlassian/application-data/jira/dbconfig.xml
+2021-10-17 11:22:59,151+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from /home/maxzed/atlassian/application-data/jira/dbconfig.xml
+2021-10-17 11:22:59,800+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from /home/maxzed/atlassian/application-data/jira/dbconfig.xml
+2021-10-17 11:22:59,809+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] 
+    
+    ___ Starting the JIRA Plugin System _________________
+    
+2021-10-17 11:23:03,648+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.SystemDatabaseConfigurationLoader] Reading database configuration from /home/maxzed/atlassian/application-data/jira/dbconfig.xml
+2021-10-17 11:23:03,690+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] Running Jira startup checks.
+2021-10-17 11:23:03,691+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.JiraStartupLogger] Jira pre-database startup checks completed successfully.
+2021-10-17 11:23:03,718+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.DatabaseConfigurationManagerImpl] The database is not yet configured. Enqueuing Database Checklist Launcher on post-database-configured-but-pre-database-activated queue
+2021-10-17 11:23:03,719+0800 JIRA-Bootstrap INFO      [c.a.j.config.database.DatabaseConfigurationManagerImpl] The database is not yet configured. Enqueuing Post database-configuration launchers on post-database-activated queue
+2021-10-17 11:23:03,724+0800 JIRA-Bootstrap INFO      [c.a.jira.startup.LauncherContextListener] Memory Usage:
+    ---------------------------------------------------------------------------------
+      Heap memory     :  Used:  610 MiB.  Committed:  900 MiB.  Max: 2022 MiB
+      Non-heap memory :  Used:   71 MiB.  Committed:   88 MiB.  Max: 1536 MiB
+    ---------------------------------------------------------------------------------
+      TOTAL           :  Used:  680 MiB.  Committed:  988 MiB.  Max: 3558 MiB
+    ---------------------------------------------------------------------------------
+17-Oct-2021 11:23:11.161 警告 [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received

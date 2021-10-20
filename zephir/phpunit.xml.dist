@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd" backupGlobals="false"
+         bootstrap="./Library/autoload.php" colors="true" verbose="true">
+    <coverage>
+        <include>
+            <directory suffix=".php">./Library</directory>
+        </include>
+        <report>
+            <clover outputFile="./tests/output/clover.xml"/>
+        </report>
+    </coverage>
+
+    <testsuites>
+        <testsuite name="Extension">
+            <directory suffix=".php">./tests/Extension</directory>
+        </testsuite>
+        <testsuite name="Zephir">
+            <directory suffix=".php">./tests/Zephir</directory>
+            <exclude>tests/Zephir/KernelTestCase.php</exclude>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <ini name="default_charset" value="UTF-8"/>
+        <ini name="date.timezone" value="UTC"/>
+        <ini name="display_errors" value="on"/>
+        <ini name="display_startup_errors" value="on"/>
+        <ini name="error_reporting" value="-1"/>
+
+        <const name="TESTS_PATH" value="./tests"/>
+        <const name="DATA_PATH" value="./tests/Data"/>
+        <const name="FIXTURES_PATH" value="./tests/fixtures"/>
+        <const name="ZEPHIRPATH" value="./"/>
+        <server name="KERNEL_CLASS" value="Zephir\DependencyInjection\ZephirKernel"/>
+    </php>
+
+    <logging>
+        <!-- log type="coverage-html" target="./tests/output/html"/-->
+    </logging>
+</phpunit>

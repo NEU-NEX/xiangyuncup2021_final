@@ -1,0 +1,31 @@
+body.a11y-setting-underlined-links {
+  a:not(.aui-button):not([type="button"]):not([role="button"]):not([role="menuitem"]):not([role="presentation"]):not(.aui-nav-item):not(.collapsed-comments):not(.lozenge):not(.aui-label):not(.splitview-issue-link),
+  .aui-button.aui-button-link,
+  .issue-drop-zone__button,
+  [role="link"],
+  .splitview-issue-link .issue-link-key,
+  a .sd-user-value {
+    text-decoration: underline;
+  }
+
+  .aui-header a, // Example: Jira's main navbar items: Dashboard, Projects, Issues, etc., doesn't include dropdown menu items
+  .aui-dropdown a, // Example: Dashboard panels -> three dots menu (...) in upper right-hand corner -> dropdown items
+  .aui-dropdown2 a, // Example: Jira's main navbar -> dropdown menu items
+  .menu-item a, // Example: Issue activity -> tab items: All, Comments, Work log, etc.
+  .aui-nav:not(.aui-nav-breadcrumbs):not(.aui-nav-pagination) a { // Example: Administration -> System -> Sidebar items. Excludes e.g. Issue page -> breadcrumbs, Issue search -> pagination
+    text-decoration: none !important;
+  }
+
+  a span.aui-badge {
+    display: inline-block; // Text decorations are not propagated to inline blocks (https://www.w3.org/TR/CSS2/text.html#lining-striking-props)
+  }
+}
+
+body.a11y-setting-text-spacing {
+  line-height: 1.5 !important;
+
+  * {
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+  }
+}
